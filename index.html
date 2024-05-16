@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>#2 - ToDo App | LakiNim</title>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="task-input">
+      <div class="img-bar">
+        <div class="bars-icon-1"></div>
+        <div class="bars-icon-2"></div>
+        <div class="bars-icon-3"></div>
+        <div class="bars-icon-4"></div>
+      </div>
+      <input type="text" placeholder="Add a new task">
+    </div>
+
+    <div class="controls">
+      <div class="filters">
+        <span id="all" class="active">
+          All
+        </span>
+        <span id="pending">Pending</span>
+        <span id="completed">Completed</span>
+      </div>
+      <button class="clear-btn">Clear All</button>
+    </div>
+    <ul class="task-box"></ul>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
